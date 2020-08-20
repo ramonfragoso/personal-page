@@ -5,7 +5,7 @@ export const StyledApp = styled.div`
   padding-right: 10%; */
   padding-top: 3%;
 
-  background: black;
+  background: white;
   @media (max-width: 800px) {
     /* padding: 5%;
     height: 100% */

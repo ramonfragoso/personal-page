@@ -35,9 +35,9 @@ export const WorkTitle = styled.div`
     } 
     transition: ease-in-out 0.2s;
     background-color: #ff00ea;
-    color: white;
+    color: black;
     padding: 7px;
-    text-shadow: -2px 2px 0px black;
+    text-shadow: -2px 1px 0px white;
 `;
 
 export const Title = styled.div`
@@ -47,8 +47,8 @@ export const Title = styled.div`
     align-items: center;
 
     font-size: 450%;
-    text-shadow: -2px 2px 0px #00ffea;
-    color: white;
+    /* text-shadow: -2px 2px 0px #00ffea; */
+    color: black;
 
 `;
 

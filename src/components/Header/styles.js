@@ -8,7 +8,7 @@ export const StyledHeader = styled.div`
     padding-left: 10%;
     padding-right: 10%;
     margin-top: 2%;
-    color: #ffffff;
+    color: black;
     
     @media (max-width: 800px) {
         padding: 5%;
@@ -53,7 +53,7 @@ export const Info = styled.div`
 
 export const Title = styled.div`
     font-size: 500%;
-    text-shadow: -3px 2px 0px #ff8000;
+    /* text-shadow: -3px 2px 0px #ff8000; */
 `;
 
 export const Subtitle = styled.div`
