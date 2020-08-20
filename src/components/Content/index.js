@@ -1,6 +1,7 @@
 import React from 'react';
-import { StyledContent, Title, CheckTitle, WorkTitle, WorkTitleContainer, Line, Emoji } from './styles';
+import { StyledContent, PersonalTitle, WorksTitle, CheckTitle, WorkTitle, WorkTitleContainer, LineWork, LinePersonal, Emoji } from './styles';
 import Personal from './Personal';
+import Work from './Work';
 import styled from 'styled-components';
 
 const Container = styled.div`
@@ -27,11 +28,19 @@ const Content = () => {
                 </CheckTitle>
                 <Emoji onClick={onClick}>&#128071;</Emoji>
             </StyledContent>
-            <Title id='personal'>
+            
+            <WorksTitle id='personal'>
+                Work
+                <LineWork/>
+            </WorksTitle>
+            <Work/>
+
+            <PersonalTitle id='personal'>
                 Personal Projects
-                <Line/>
-            </Title>
-            <Personal/>
+                <LinePersonal/>
+            </PersonalTitle>
+            <Personal/>        
+
         </Container>
     )
 }

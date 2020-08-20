@@ -40,22 +40,38 @@ export const WorkTitle = styled.div`
     text-shadow: -2px 2px 0px black;
 `;
 
-export const Title = styled.div`
+const Title = `    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 
     font-size: 450%;
-    text-shadow: -2px 2px 0px #00ffea;
     color: white;
-
 `;
 
-export const Line = styled.div`
+export const PersonalTitle = styled.div`
+    ${Title}
+    text-shadow: -2px 2px 0px #00d5ff;
+    color: white;
+`;
+
+export const LinePersonal = styled.div`
     height: 70px;
     width: 20%;
-    background-color: #00ffea;
+    background-color: #00d5ff;
+`;
+
+export const WorksTitle = styled.div`
+        ${Title}
+        text-shadow: -2px 2px 0px #ffd500;
+        color: white;
+    `;
+
+export const LineWork = styled.div`
+    height: 70px;
+    width: 20%;
+    background-color: #ffd500;
 `;
 
 export const Emoji = styled.div`

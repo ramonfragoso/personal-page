@@ -6,7 +6,7 @@ import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
   html, body, #app, #app>div {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Ubuntu', sans-serif;
     height: 100%
 }
 `

@@ -18,7 +18,8 @@ export const Container = styled.div`
 export const StyledProject = styled.div`
     padding-top: 50px;
     width:300px;
-    color: white;
+    color: #696969;
+    font-size: 120%;
 `;
 
 export const ImageContainer = styled.div`
