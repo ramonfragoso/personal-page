@@ -41,8 +41,10 @@ export const Image = styled.img`
     transition: transform 0.2s, filter 1s;
     filter: grayscale(1);
 
+    transform:translate(5px, -5px);
+
     &:hover {
-        transform:translate(5px, -5px);
+        transform:translate(7px, -7px);
         filter: none;
     }
     max-width: 100%;
