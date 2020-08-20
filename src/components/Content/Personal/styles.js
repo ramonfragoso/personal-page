@@ -40,7 +40,7 @@ export const ImageContainer = styled.div`
 export const Image = styled.img`
 
     transition: transform 0.2s, filter 1s;
-    filter: grayscale(1);
+    filter: grayscale(0.5);
 
     &:hover {
         transform:translate(5px, -5px);
@@ -54,4 +54,5 @@ export const Item = styled.div`
     margin:10px 0px;
     padding-left: 5px;
     border-left: solid 4px #00FFEA;
+    word-wrap: break-word;
 `;
