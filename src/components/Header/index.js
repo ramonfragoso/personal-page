@@ -1,6 +1,7 @@
 import React from 'react';
 import { StyledHeader, Title, ImageContainer, Image, Info, Subtitle, Link } from './styles';
 import prof_pic from '../../images/prof_pic.jpg';
+import resume from '../../images/resume.pdf';
 
 const Header = () => {
 
@@ -17,7 +18,7 @@ const Header = () => {
         <Subtitle>Download my&nbsp;  
           <a style={{
           color: '#ff00ea'
-          }} href={prof_pic} download>CV</a></Subtitle>
+          }} href={resume} download="resume.pdf">resumé</a></Subtitle>
       </Info>
     </StyledHeader>
   );
